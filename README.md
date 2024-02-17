@@ -1,9 +1,9 @@
 # Vector Databases for LangChain
 
-This is a functional project that aims to demonstrate the usage of a local vector database to read and query a pdf file. The project splits the data from the pdf file, in this case, a research paper co-authored 
-by me containing thousands of tokens into chunks. Then LangChain's embeddings are used to convert relevant information into vectors (can be understood as arrays) of numbers matching the textual content. 
+This is a functional project that aims to demonstrate the usage of a local vector database to read and query a pdf file. The project splits the data from the pdf file, (in this case, a research paper co-authored 
+by me) containing thousands of tokens into chunks. Then LangChain's embeddings are used to convert relevant information into vectors (can be understood as arrays) of numbers matching the textual content. 
 Finally, using chaining a query is made to the declared LLM in order to fetch the correct answer contained within the pdf file which is then displayed as the output. 
-In this project, FAISS vectorstores were used to create the index locally and provide similarity search and context, without the usage of a cloud-based service. 
+In this project, FAISS vectorstores were used to create the index locally and provide similarity search and context using the embeddings, without the usage of a cloud-based service. 
 
 ## Screenshots
 
